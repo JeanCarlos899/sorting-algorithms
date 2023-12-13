@@ -1,13 +1,3 @@
-// Para esse trabalhos os alunos deverão em dupla, efetuar testes com conjuntos de dados 
-// de tamanhos 100, 500, 1000, 5000, 30000, 80000, 10000, 150000 e 20000 elementos 
-// (vetores de números inteiros) preenchidos randomicamente. O testes deverão ser realizados 
-// com os seguintes algoritmos de ordenação: Buble Sort, Selection Sort, Insertion Sort, 
-// Merge Sort, Quick Sort e Counting Sort. Neste relatório deverá constar tabela com o tempo 
-// de execução de cada algoritmo para cada conjunto de dados ( o mesmo conjunto de dados deve 
-// ser utilizado para todos algoritmos), gráfico com a comparação dos tempos de execução, e informações 
-// sobre a linguagem e equipamentos onde os testes foram executados. Na conclusões do relatório explica o 
-// porque da performance do melhor algoritmo dado cada conjunto de dados.
-
 // Conjunto de dados: 100, 500, 1000, 5000, 30000, 80000, 10000, 150000 e 200000
 // Algoritmos: Buble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort e Counting Sort
 
