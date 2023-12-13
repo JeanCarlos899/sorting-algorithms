@@ -3,9 +3,8 @@ package scripts;
 public class QuickSort implements SortingAlgorithms {
     @Override
     public int[] sort(int[] dataSet) {
-        int[] sortedDataSet = dataSet.clone();
-        quickSort(sortedDataSet, 0, dataSet.length - 1);
-        return sortedDataSet;
+        quickSort(dataSet, 0, dataSet.length - 1);
+        return dataSet;
     }
 
     private void quickSort(int[] arr, int low, int high) {

@@ -3,9 +3,8 @@ package scripts;
 public class CountingSort implements SortingAlgorithms {
     @Override
     public int[] sort(int[] dataSet) {
-        int[] sortedDataSet = dataSet.clone();
-        countingSort(sortedDataSet);
-        return sortedDataSet;
+        countingSort(dataSet);
+        return dataSet;
     }
 
     private void countingSort(int[] arr) {

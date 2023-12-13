@@ -3,20 +3,19 @@ package scripts;
 public class InsertionSort implements SortingAlgorithms {
     @Override
     public int[] sort(int[] dataSet) {
-        int[] sortedDataSet = dataSet.clone();
-        int n = sortedDataSet.length;
+        int n = dataSet.length;
 
         for (int i = 1; i < n; i++) {
-            int key = sortedDataSet[i];
+            int key = dataSet[i];
             int j = i - 1;
 
-            while (j >= 0 && sortedDataSet[j] > key) {
-                sortedDataSet[j + 1] = sortedDataSet[j];
+            while (j >= 0 && dataSet[j] > key) {
+                dataSet[j + 1] = dataSet[j];
                 j = j - 1;
             }
 
-            sortedDataSet[j + 1] = key;
+            dataSet[j + 1] = key;
         }
-        return sortedDataSet;
+        return dataSet;
     }
 }

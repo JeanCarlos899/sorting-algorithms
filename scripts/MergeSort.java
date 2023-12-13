@@ -6,9 +6,8 @@ public class MergeSort implements SortingAlgorithms {
 
     @Override
     public int[] sort(int[] dataSet) {
-        int[] sortedDataSet = dataSet.clone();
-        mergeSort(sortedDataSet, 0, sortedDataSet.length - 1);
-        return sortedDataSet;
+        mergeSort(dataSet, 0, dataSet.length - 1);
+        return dataSet;
     }
 
     private void mergeSort(int[] arr, int left, int right) {
