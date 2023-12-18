@@ -14,6 +14,7 @@ public class Main {
         SortingAlgorithms quickSort = new QuickSort();
         SortingAlgorithms countingSort = new CountingSort();
 
+        System.out.println("Digite o tamanho do conjunto de dados: ");
         int size = Integer.parseInt(System.console().readLine());
         int[] dataSet = GenerateData.generateRandomData(size);
 
